@@ -15,6 +15,10 @@
   #to = "https://www.perimeterianakamai.fun/:splat"
   #status = 301
   #force = true
+  [[redirects]]
+  from = "/testpath2"
+  to = "/404.html"
+  status = 404
 
   ## (optional) Settings for Netlify Dev
   ## https://github.com/netlify/cli/blob/main/docs/netlify-dev.md#project-detection
